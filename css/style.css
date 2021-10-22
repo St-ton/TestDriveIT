@@ -11,6 +11,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -18,10 +19,12 @@ body {
   justify-content: space-between;
   position: relative;
 }
+
 .no-underline {
   text-decoration: none;
   cursor: pointer;
 }
+
 .no-underline-phone {
   text-decoration: none;
   cursor: pointer;
@@ -32,6 +35,7 @@ body {
   margin-left: 5px;
   text-decoration: none;
 }
+
 /* Contact-section" */
 .contact-section-title {
   position: absolute;
@@ -48,6 +52,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .my-foto {
   width: 70%;
   height: auto;

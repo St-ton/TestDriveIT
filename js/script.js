@@ -5,18 +5,21 @@ const prices = {
         app: 1200,
         doc: 500
     },
+
     'mult-app': {
         idea: 1200,
         web: 900,
         app: 2500,
         doc: 800,
     },
+
     'web-app': {
         idea: 2000,
         web:1100,
         app:3000,
         doc: 1000,
     },
+
     'mob-app': {
         idea: 3000,
         web: 1500,
@@ -24,6 +27,7 @@ const prices = {
         doc: 1300,
     }
 };
+
 function getFormValues() {
     const websiteTypeElement = document.querySelector('#project-type');
     
@@ -41,6 +45,7 @@ function getFormValues() {
 
     }
 }
+
 function calculateWork() {
     const values = getFormValues();
     
@@ -67,6 +72,7 @@ function calculateWork() {
         
     console.log(totalPrice);
 }
+
     
 // getFormValues();
 const formEl = document.querySelector('#project-price-form');
@@ -82,6 +88,7 @@ formEl.addEventListener('submit', function (event){
     emailModal.classList.add('modal-active');
         
 });
+
 const closeButtons = document.querySelectorAll('.modal-close-button');
 
 closeButtons.forEach(function (closeBtn){
