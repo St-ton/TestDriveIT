@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!-- Атрибут языка -->
+<html lang="en-us">
+  <head>
+    <!-- Кодировка символов -->
+    <meta charset="UTF-8" />
+    <!-- Режим совместимости Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Для изображения на всю ширину экрана и подстройку под мобильные -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Заголовок -->
+    <title>Сайт QA инженера</title>
+    <!-- Загружаем шрифты из гугл -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Удаляет настройки браузеров по умолчанию -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- Загружаем стили -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Contacts-section -->
+      <section class="contact-section">
+        <div class="contact-section-title">
+          <a href="https://t.me/ClubTravels" class="no-underline"
+            ><img src="./img/icons/telegram-icon.svg" alt="" class="icon-container-24-15" />
+          </a>
+          <a href="https://wa.me/+4917632314250" class="no-underline">
+            <img src="./img/icons/viber-icon.svg" alt="" class="icon-container-24-15" />
+          </a>
+          <a href="tel.+4917632314250" class="no-underline">
+            <img src="./img/icons/phone-icon.svg" alt="" class="icon-container-24-15" />
+          </a>
+          <h4 class="">
+            <a href="tel:+4917632314250" class="no-underline-phone">+49 (176)3231-4250</a>
+          </h4>
+        </div>
+      </section>
+      <!-- Experience-section -->
+      <section class="experience-section">
+        <img src="./img/stanislav.jpg" alt="My Photo" class="my-foto" />
+        <div>
+          <a href="https://www.facebook.com/StasTonkikh/" class="no-underline">
+            <img src="./img/icons/fb-icon.svg" class="icon-container-24-15" alt="My Facebook" />
+          </a>
+          <a href="https://www.linkedin.com/in/stanislav-tonkich-595747210/" class="no-underline">
+            <img src="./img/icons/linkedin-icon.svg" class="icon-container-24" alt="My Linkedin" />
+          </a>
+        </div>
+        <div class="experience-description">
+          <p class="experience-description-text experience-description-text-first">
+            22 готовых проекта
+          </p>
+          <p class="experience-description-text">2 года опыта</p>
+        </div>
+        <div class="technologies-container">
+          <img src="./img/icons/js-icon.svg" alt="" class="icon-container-24-15" />
+          <img src="./img/icons/nodejs-icon.svg" alt="" class="icon-container-24-15" />
+          <img src="./img/icons/react-icon.svg" alt="" class="icon-container-24" />
+        </div>
+        <h4 class="my-project-link"><a href="https://github.com/St-ton">Мои работы</a></h4>
+      </section>
+      <!-- Info-section  -->
+      <section class="info-section">
+        <h2 class="header2">Привет! Я - Станислав Тонких</h2>
+        <h1 class="header1">
+          Я QA <br />
+          инженер
+        </h1>
+        <p class="subheader1">Живу в Германии</p>
+        <p class="subheader2">Работаю удаленно</p>
+        <p class="skills-description">Могу протестировать все - от карандаша до ракеты</p>
+        <p class="skils-title">Мои навыки:</p>
+        <ul class="skils-list">
+          <li class="skils-item">
+            <span class="skils-text">Составление mindmap проекта</span>
+          </li>
+          <li class="skils-item"><span class="skils-text">Составление тест-кейсов</span></li>
+          <li class="skils-item"><span class="skils-text">Составление чек-листов</span></li>
+          <li class="skils-item">
+            <span class="skils-text">Основные техники тест-анализа</span>
+          </li>
+          <li class="skils-item">
+            <span class="skils-text">Тестирование документации</span>
+          </li>
+          <li class="skils-item">
+            <span class="skils-text">Исследовательское тестирование</span>
+          </li>
+          <li class="skils-item">
+            <span class="skils-text">Локализация и оформление багов</span>
+          </li>
+        </ul>
+      </section>
+      <!-- Project-price-section  -->
+      <section class="project-price">
+        <form
+          class="project-price-form"
+          method="POST"
+          name="Рассчет стоимости"
+          data-netlify="true"
+          id="project-price-form"
+          data-netlify="true"
+        >
+          <h4 class="project-price-title">Рассчитай стоимость работ</h4>
+          <div class="project-type-container">
+            <label for="project-type" class="form-fild-title">Тип объекта</label>
+            <select name="project-type" id="project-type" class="project-price-select">
+              <option value="land-app">Landing page</option>
+              <option value="mult-app">Многостраничный сайт</option>
+              <option value="web-app">Веб приложение</option>
+              <option selected value="mob-app">Мобильное приложение</option>
+            </select>
+          </div>
+          <div class="activity-type-container">
+            <p class="form-fild-title">Тип работ</p>
+            <div class="activity-type-item">
+              <input
+                type="checkbox"
+                name="Тестирование идеи"
+                id="testidea"
+                class="activity-type-chekbox"
+              />
+              <label for="testidea" class="activity-type-text">Тестирование идеи</label>
+            </div>
+            <div class="activity-type-item">
+              <input
+                type="checkbox"
+                name="Тестирование вэб-сайта"
+                id="testweb"
+                class="activity-type-chekbox"
+              />
+              <label for="testweb" class="activity-type-text">Тестирование вэб-сайта</label>
+            </div>
+            <div class="activity-type-item">
+              <input
+                type="checkbox"
+                name="Тестирование приложения"
+                id="testapp"
+                class="activity-type-chekbox"
+              />
+              <label for="testapp" class="activity-type-text">Тестирование приложения</label>
+            </div>
+            <div class="activity-type-item">
+              <input
+                type="checkbox"
+                name="Тестирование документации"
+                id="testdoc"
+                class="activity-type-chekbox"
+              />
+              <label for="testdoc" class="activity-type-text">Тестирование документации</label>
+            </div>
+          </div>
+          <div class="project-price-container">
+            <p class="project-price-container-title">Стоимость</p>
+            <p class="project-price-summa">
+              <span class="project-price-carrancy">$</span> <span id="total-price">0</span>
+            </p>
+          </div>
+          <input type="hidden" name="Email" />
+
+          <div class="project-price-button-container">
+            <button class="project-price-button">Отправить запрос</button>
+          </div>
+        </form>
+      </section>
+      <!-- Modal-email-section  -->
+      <section class="modal-email-section">
+        <div class="modal-background" id="modal-email">
+          <div class="modal-container">
+            <button class="modal-close-button">
+              <img src="./img/icons/close-icon.svg" alt="" class="icon-container-18" />
+            </button>
+            <img src="./img/icons/mail-icon.svg" alt="" class="modal-icon icon-container-24" />
+            <h4 class="modal-title">Я свяжусь с Вами <br />в течении одного часа</h4>
+            <form action="#" class="modal-container-form" id="modal-email-container">
+              <div class="email-input-container" id="email-input-container">
+                <label for="user-email" class="user-email-title">E-mail</label>
+                <input
+                  type="email"
+                  name="user-email"
+                  id="user-email"
+                  class="user-email"
+                  placeholder="Укажите Ваш Eмаил"
+                />
+                <p class="email-error-text">Без email мы не сможем отправить рассчет</p>
+              </div>
+              <div class="button-container">
+                <button type="submit" class="button-email">Отправить Email</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Modal-success-section  -->
+        <div class="modal-background" id="modal-success">
+          <div class="modal-container modal-container-sucсses">
+            <button class="modal-close-button">
+              <img src="./img/icons/close-icon.svg" alt="" class="icon-container-18" />
+            </button>
+            <img src="./img/icons/success-icon.svg" alt="" class="modal-icon icon-container-24" />
+            <p class="modal-title">
+              Ваше сообщение отправлено.<br /><br />Пожалуйста ожидайте ответ
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
